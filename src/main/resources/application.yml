@@ -1,3 +1,10 @@
 #서버 포트
 server : 
   port : 8000
+  servlet:
+    session:
+      timeout: 10
+      cookie:
+        max-age: 10 # 
+        http-only : true
+        
