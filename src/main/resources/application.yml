@@ -8,3 +8,8 @@ server :
         max-age: 10 # 
         http-only : true
         
+spring:
+  security:
+    user:
+      name: user
+      password: qweasd        
